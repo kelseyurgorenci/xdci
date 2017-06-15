@@ -1,0 +1,13 @@
+name: X Dci
+version: 0.1.0
+description: Theme Developed for xDCI site
+icon: rebel
+author:
+  name: Kelsey Urgo
+  email: webmaster@renci.org
+homepage: https://github.com/kelsey-urgo/grav-theme-x-dci
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/kelsey-urgo/grav-theme-x-dci/issues
+readme: https://github.com/kelsey-urgo/grav-theme-x-dci/blob/develop/README.md
+license: MIT

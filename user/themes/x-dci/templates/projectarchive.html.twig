@@ -1,0 +1,21 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+	<div class="component-wrap">
+	    {{ page.content }}
+		<div class="red-section">
+			<h3 class="red-section-text">Learn more about xDCI components below...</h3>
+		</div>
+		<div class="component-row">
+		{% for p in page.collection %}
+			<div class="component-summary">
+					<div class="toggler">
+				   		<h2>{{ p.title }}</h2>
+				   	</div>
+				<div class="toggle_cont">
+					{{ p.summary }}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+{% endblock %}
