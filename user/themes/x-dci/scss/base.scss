@@ -442,9 +442,16 @@ label .arrow-up { display: none; }
 					    display: flex;
 					    align-items: flex-end;
 					    float: left;
-						img {
-						    width: 35%;
+						.logo-arrow-wrap {
+						    width: 100%;
 						    margin: 0 auto;
+						    text-align: center;
+						    display: flex;
+						    align-items: flex-end;
+						    justify-content: center;
+						    img {
+						    	margin-left: 5px;
+						    }
 						}
 					}
 					.toggle_cont {

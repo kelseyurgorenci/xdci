@@ -372,9 +372,15 @@ label .arrow-up {
           display: flex;
           align-items: flex-end;
           float: left; }
-          #body .wrapper .component-wrap .component-row .component-summary .component-logo-wrap img {
-            width: 35%;
-            margin: 0 auto; }
+          #body .wrapper .component-wrap .component-row .component-summary .component-logo-wrap .logo-arrow-wrap {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center; }
+            #body .wrapper .component-wrap .component-row .component-summary .component-logo-wrap .logo-arrow-wrap img {
+              margin-left: 5px; }
         #body .wrapper .component-wrap .component-row .component-summary .toggle_cont {
           display: none;
           position: absolute;
