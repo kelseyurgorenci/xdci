@@ -5,9 +5,7 @@ taxonomy:
         - featuredproject
 ---
 
-# Hydroshare
-
-##PI(s):
+## PI(s):
 
 ## Project Description:
 An online collaborative system to support open sharing of hydrologic data, analytical tools, and computer models.
@@ -25,4 +23,4 @@ An online collaborative system to support open sharing of hydrologic data, analy
 ## Technical Readiness Level:
 **3**
 ## Project Website:
-[link](https://www.hydroshare.org)
+[Hydroshare](https://www.hydroshare.org)

@@ -7,8 +7,6 @@ taxonomy:
         - featuredproject
 ---
 
-# Advanced Health Care Directives (AHCD)
-
 ## PI(s):
 
 ## Project Description:

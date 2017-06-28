@@ -7,8 +7,6 @@ taxonomy:
         - featuredproject
 ---
 
-# I am new content.
-
 #### PI(s):   
 Ashok Krishnamurthy and Jason Stein
 
@@ -16,8 +14,8 @@ Ashok Krishnamurthy and Jason Stein
 Creating a discovery environment for 3-D transparent brain images to enable data sharing and development of novel analysis tools.
 
 ## Components Contributing to xDCI: 
-* ![](irods_icon.png)
-* ![](discovery_environment_logo.png)
+* [iRODS](https://irods.org/)
+* [Discovery Environment](http://www.cyverse.org/discovery-environment)
 
 #### Outcomes:
 * Data management 
