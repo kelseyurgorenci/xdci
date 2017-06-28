@@ -4,14 +4,16 @@
 	<div class="component-wrap">
 	    {{ page.content }}
 		<div class="red-section">
-			<h3 class="red-section-text">Learn more about xDCI components below...</h3>
+			<h3 class="red-section-text">Learn more about xDCI projects below...</h3>
 		</div>
 		<div class="component-row">
 		{% for p in page.collection %}
 			<div class="component-summary">
 				{% for image in p.media.images %}
-					<div class="toggler">
-				   		{{ image.html }}
+					<div class="component-logo-wrap toggler">
+				   		<div class="logo-arrow-wrap">
+				   			&#8595;{{ image.html }}
+				   		</div>
 				   	</div>
 				{% endfor %}
 				<div class="toggle_cont">

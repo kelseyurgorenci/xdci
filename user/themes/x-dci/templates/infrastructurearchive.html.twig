@@ -1,19 +1,5 @@
 {% extends 'partials/base.html.twig' %}
 
-{# {% block content %}
-    {{ page.content }}
-    {% for p in page.collection %}
-		<div class="news-summary">
-			{% for image in p.media.images %}
-				<div class="toggler">
-			   		{{ image.html }}
-			   	</div>
-			{% endfor %}
-			{{ p.summary }}
-		</div>
-	{% endfor %}
-{% endblock %} #}
-
 {% block content %}
 	<div class="component-wrap">
 	    {{ page.content }}
@@ -24,8 +10,10 @@
 		{% for p in page.collection %}
 			<div class="component-summary">
 				{% for image in p.media.images %}
-					<div class="toggler">
-				   		{{ image.html }}
+					<div class="component-logo-wrap toggler">
+				   		<div class="logo-arrow-wrap">
+				   			&#8595;{{ image.html }}
+				   		</div>
 				   	</div>
 				{% endfor %}
 				<div class="toggle_cont">
