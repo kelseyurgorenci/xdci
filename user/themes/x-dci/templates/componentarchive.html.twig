@@ -11,7 +11,9 @@
 			<div class="component-summary">
 				{% for image in p.media.images %}
 					<div class="component-logo-wrap toggler">
-				   		{{ image.html }}
+				   		<div class="logo-arrow-wrap">
+				   			&#8595;{{ image.html }}
+				   		</div>
 				   	</div>
 				{% endfor %}
 				<div class="toggle_cont">

@@ -9,9 +9,11 @@
 		<div class="component-row">
 		{% for p in page.collection %}
 			<div class="component-summary">
+				{% for image in p.media.images %}
 					<div class="toggler">
-				   		<h2>{{ p.title }}</h2>
+				   		{{ image.html }}
 				   	</div>
+				{% endfor %}
 				<div class="toggle_cont">
 					{{ p.summary }}
 				</div>
