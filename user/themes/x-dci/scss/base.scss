@@ -19,6 +19,8 @@ body#top {
 #top .header {
     background-color: transparent;
     overflow: auto;
+    -moz-border-top: 6px solid transparent;
+	-webkit-border-top: 6px solid transparent;
     border-top: 6px solid transparent;
 	-moz-border-image: -moz-linear-gradient(left,  rgba(168,89,77,1) 0%, rgba(228,158,98,1) 66%, rgba(245,188,115,1) 100%); /* FF3.6-15 */
 	-webkit-border-image: -webkit-linear-gradient(left,  rgba(168,89,77,1) 0%,rgba(228,158,98,1) 66%,rgba(245,188,115,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -36,6 +38,8 @@ body#top {
 #top .footer {
     width: 100%;
     background-color: #DDD;
+    -moz-border-top: 6px solid transparent;
+	-webkit-border-top: 6px solid transparent;
     border-top: 6px solid transparent;
 	-moz-border-image: -moz-linear-gradient(left,  rgba(168,89,77,1) 0%, rgba(228,158,98,1) 66%, rgba(245,188,115,1) 100%); /* FF3.6-15 */
 	-webkit-border-image: -webkit-linear-gradient(left,  rgba(168,89,77,1) 0%,rgba(228,158,98,1) 66%,rgba(245,188,115,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -421,14 +425,14 @@ label .arrow-up { display: none; }
 				    font-size: 1.3em;
 				}
 			}
-			.component-row {
-			    overflow: auto;
+			.project-row {
+				overflow: auto;
 			    max-width: 1217px;
 			    background: #FFF;
 			    padding: 0 4%;
 			    margin: 0 auto;
 			    min-height: 250px;
-			    padding-bottom: 188px;
+			    padding-bottom: 660px;
 				.component-summary {
 					width: 33%;
 					float: left;
@@ -438,7 +442,7 @@ label .arrow-up { display: none; }
 					position: relative;
 					.component-logo-wrap {
 					    width: 100%;
-					    min-height: 215px;
+					    min-height: 150px;
 					    display: flex;
 					    align-items: flex-end;
 					    float: left;
@@ -458,8 +462,84 @@ label .arrow-up { display: none; }
 						display: none;
 					    position: absolute;
 					    background: #FFF;
-					    top: 225px;
+					    top: 161px;
 					    z-index: 1;
+					    -webkit-border-top: solid 5px;
+						-moz-border-top: solid 5px;
+					    border-top: solid 5px;
+					    border-image: linear-gradient(to right, #DD965F 0%, #f5bc73 100%);
+					    border-image-slice: 1;
+					    width: 100%;
+						h1 {
+							font-size: 1.5em;
+							text-align: left !important;
+						}
+						p {
+							text-align: center;
+							font-size: .8em;
+							margin-bottom: 23px;
+						}
+						.xdci-button {
+							text-shadow: none;
+							font-size: 1.1em !important;
+						    border: solid 1px;
+						    padding: 10px 15px;
+						    border-image: linear-gradient(to right, #DD965F 0%, #f5bc73 100%);
+						    border-image-slice: 1;
+						    color: #E6A164;
+						}
+						.xdci-button:hover {
+							color: #FFF !important;
+						    border: solid 1px;
+						    border-image: linear-gradient(to right, #DD965F 0%, #f5bc73 100%);
+						    border-image-slice: 1;
+						    background-image: linear-gradient(to right, #DD965F 0%, #f5bc73 100%);
+						}
+					}
+				}
+
+			}
+			.component-row {
+			    overflow: auto;
+			    max-width: 1217px;
+			    background: #FFF;
+			    padding: 0 4%;
+			    margin: 0 auto;
+			    min-height: 250px;
+			    padding-bottom: 188px;
+				.component-summary {
+					width: 33%;
+					float: left;
+					margin-top: 10px;
+					border-bottom: solid 1px #ccc;
+					padding-bottom: 10px;
+					position: relative;
+					.component-logo-wrap {
+					    width: 100%;
+					    min-height: 150px;
+					    display: flex;
+					    align-items: flex-end;
+					    float: left;
+						.logo-arrow-wrap {
+						    width: 100%;
+						    margin: 0 auto;
+						    text-align: center;
+						    display: flex;
+						    align-items: flex-end;
+						    justify-content: center;
+						    img {
+						    	margin-left: 5px;
+						    }
+						}
+					}
+					.toggle_cont {
+						display: none;
+					    position: absolute;
+					    background: #FFF;
+					    top: 161px;
+					    z-index: 1;
+					    -webkit-border-top: solid 5px;
+						-moz-border-top: solid 5px;
 					    border-top: solid 5px;
 					    border-image: linear-gradient(to right, #DD965F 0%, #f5bc73 100%);
 					    border-image-slice: 1;
