@@ -150,7 +150,7 @@ body#top {
     left: 0;
     width: 100%;
     z-index: 100;
-    padding-bottom: 194px;
+    padding-bottom: 96px;
     overflow: auto;
     position: relative; }
     .about .red-section .red-section-text {
@@ -561,67 +561,71 @@ label .arrow-up {
   #top #body .about .about-wrap .expand-wrap {
     width: 32%; } }
 @media only screen and (max-width: 740px) {
-  #top #body .about .about-wrap .expand-wrap {
+  #top #body .wrapper .about .about-wrap .expand-wrap {
     width: 100%;
     margin-bottom: 64px; }
-    #top #body .about .about-wrap .expand-wrap .expand-icon {
+    #top #body .wrapper .about .about-wrap .expand-wrap .expand-icon {
       max-width: 138px; }
-    #top #body .about .about-wrap .expand-wrap .showHide {
+    #top #body .wrapper .about .about-wrap .expand-wrap .showHide {
       margin-top: -66px; }
-  #top #body .about .red-section {
+  #top #body .wrapper .about .red-section {
     margin-top: 0; }
-    #top #body .about .red-section .red-section-text .what-is-xdci {
+    #top #body .wrapper .about .red-section .red-section-text .what-is-xdci {
       width: 100%;
       text-align: center;
       margin-top: 65px;
       padding: 0 5%; }
-      #top #body .about .red-section .red-section-text .what-is-xdci p {
+      #top #body .wrapper .about .red-section .red-section-text .what-is-xdci p {
         padding-right: 0; }
-    #top #body .about .red-section .red-section-text .who-uses-us {
+    #top #body .wrapper .about .red-section .red-section-text .who-uses-us {
       width: 100%;
       text-align: center;
       margin-bottom: 40px;
       padding: 0 5%; }
-      #top #body .about .red-section .red-section-text .who-uses-us p {
+      #top #body .wrapper .about .red-section .red-section-text .who-uses-us p {
         padding-left: 0; }
-  #top #body .process {
+  #top #body .wrapper .process {
     margin-top: -82px; }
-    #top #body .process .process-wrap {
+    #top #body .wrapper .process .process-wrap {
       margin-bottom: 0; }
-      #top #body .process .process-wrap h2 {
+      #top #body .wrapper .process .process-wrap h2 {
         margin-top: 105px; }
-      #top #body .process .process-wrap .step-row {
+      #top #body .wrapper .process .process-wrap .step-row {
         display: block; }
-        #top #body .process .process-wrap .step-row .step-icon {
+        #top #body .wrapper .process .process-wrap .step-row .step-icon {
           width: 100%; }
-        #top #body .process .process-wrap .step-row .step-text {
+        #top #body .wrapper .process .process-wrap .step-row .step-text {
           width: 100%;
           text-align: center; }
-          #top #body .process .process-wrap .step-row .step-text .step-number {
+          #top #body .wrapper .process .process-wrap .step-row .step-text .step-number {
             float: none;
             margin-top: 24px;
             margin-right: 0; }
-          #top #body .process .process-wrap .step-row .step-text .step-description {
+          #top #body .wrapper .process .process-wrap .step-row .step-text .step-description {
             float: none;
             width: 100%;
             margin-top: 16px;
             padding: 0 5%; }
-            #top #body .process .process-wrap .step-row .step-text .step-description h4 {
+            #top #body .wrapper .process .process-wrap .step-row .step-text .step-description h4 {
               width: 100%; }
-  #top #body .project-summary {
+  #top #body .wrapper .project-summary {
     width: 100%; }
-    #top #body .project-summary img {
+    #top #body .wrapper .project-summary img {
       width: 90%;
       float: none;
       display: block;
       margin: 0 auto; }
-  #top #body .news-summary {
+  #top #body .wrapper .news-summary {
     width: 100%; }
-    #top #body .news-summary img {
+    #top #body .wrapper .news-summary img {
       width: 90%;
       float: none;
       display: block;
-      margin: 0 auto; } }
+      margin: 0 auto; }
+  #top #body .wrapper .component-wrap .component-row .component-summary {
+    width: 100%; }
+  #top #body .wrapper .component-wrap .project-row .component-summary {
+    width: 100%; } }
 @media only screen and (max-width: 643px) {
   #top #body .wrapper .staff-summary {
     width: 100%; }

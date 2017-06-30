@@ -191,7 +191,7 @@ body#top {
 	    left: 0;
 	    width: 100%;
 	    z-index: 100;
-	    padding-bottom: 194px;
+	    padding-bottom: 96px;
 	    overflow: auto;
 	    position: relative;
 	    .red-section-text {
@@ -723,92 +723,106 @@ label .arrow-up { display: none; }
 @media only screen and (max-width: 740px) {
 	#top {
 		#body {
-			.about {
-				.about-wrap {
-					.expand-wrap {
-						width: 100%;
-						margin-bottom: 64px;
-						.expand-icon {
-							max-width: 138px;
-						}
-						.showHide {
-							margin-top: -66px;
-						}
-					}
-				}
-				.red-section {
-					margin-top: 0;
-					.red-section-text {
-						.what-is-xdci {
+			.wrapper {
+				.about {
+					.about-wrap {
+						.expand-wrap {
 							width: 100%;
-							text-align: center;
-							margin-top: 65px;
-							padding: 0 5%;
-							p {
-								padding-right: 0;
+							margin-bottom: 64px;
+							.expand-icon {
+								max-width: 138px;
 							}
-						}
-						.who-uses-us {
-							width: 100%;
-							text-align: center;
-							margin-bottom: 40px;
-    						padding: 0 5%;
-							p {
-								padding-left: 0;
+							.showHide {
+								margin-top: -66px;
 							}
 						}
 					}
-				}
-			}
-			.process {
-				margin-top: -82px;
-				.process-wrap {
-					margin-bottom: 0;
-					h2 {
-						margin-top: 105px;
-					}
-					.step-row {
-						display: block;
-						.step-icon {
-							width: 100%;
-						}
-						.step-text {
-							width: 100%;
-							text-align: center;
-							.step-number {
-								float: none;
-								margin-top: 24px;
-								margin-right: 0;
-							}
-							.step-description {
-								float: none;
+					.red-section {
+						margin-top: 0;
+						.red-section-text {
+							.what-is-xdci {
 								width: 100%;
-								margin-top: 16px;
+								text-align: center;
+								margin-top: 65px;
 								padding: 0 5%;
-								h4 {
-									width: 100%;
+								p {
+									padding-right: 0;
+								}
+							}
+							.who-uses-us {
+								width: 100%;
+								text-align: center;
+								margin-bottom: 40px;
+	    						padding: 0 5%;
+								p {
+									padding-left: 0;
 								}
 							}
 						}
 					}
 				}
-			}
-			.project-summary {
-				width: 100%;
-				img {
-					width: 90%;
-					float: none;
-					display: block;
-					margin: 0 auto;
+				.process {
+					margin-top: -82px;
+					.process-wrap {
+						margin-bottom: 0;
+						h2 {
+							margin-top: 105px;
+						}
+						.step-row {
+							display: block;
+							.step-icon {
+								width: 100%;
+							}
+							.step-text {
+								width: 100%;
+								text-align: center;
+								.step-number {
+									float: none;
+									margin-top: 24px;
+									margin-right: 0;
+								}
+								.step-description {
+									float: none;
+									width: 100%;
+									margin-top: 16px;
+									padding: 0 5%;
+									h4 {
+										width: 100%;
+									}
+								}
+							}
+						}
+					}
 				}
-			}
-			.news-summary {
-				width: 100%;
-				img {
-					width: 90%;
-					float: none;
-					display: block;
-					margin: 0 auto;
+				.project-summary {
+					width: 100%;
+					img {
+						width: 90%;
+						float: none;
+						display: block;
+						margin: 0 auto;
+					}
+				}
+				.news-summary {
+					width: 100%;
+					img {
+						width: 90%;
+						float: none;
+						display: block;
+						margin: 0 auto;
+					}
+				}
+				.component-wrap {
+					.component-row {
+						.component-summary {
+							width: 100%;
+						}
+					}
+					.project-row {
+						.component-summary {
+							width: 100%;
+						}
+					}
 				}
 			}
 		}
