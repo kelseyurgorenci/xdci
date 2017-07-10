@@ -2,4 +2,4 @@
 title: Homepage About
 image_align: right
 ---
-#Cross-disciplinary Data CyberInfrastructure
+#{cross-disciplinary} Data CyberInfrastructure
