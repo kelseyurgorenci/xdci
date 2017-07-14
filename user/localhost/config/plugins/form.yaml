@@ -1,0 +1,14 @@
+enabled: true
+built_in_css: true
+files:
+  multiple: false
+  limit: 10
+  filesize: 5
+  destination: self@
+  avoid_overwriting: false
+  random_name: false
+  accept:
+    - 'image/*'
+recaptcha:
+  site_key: 6LdM4ygUAAAAAAY5DFnVVmgeUbfq_59F5DWImUBp
+  secret_key: 6LdM4ygUAAAAABgzuGBHjwCW12w84PSLbrhBhDfO

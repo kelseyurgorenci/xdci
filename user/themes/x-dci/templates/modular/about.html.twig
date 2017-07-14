@@ -1,90 +1,23 @@
 <?php  ?>
 <div class="modular-row about">
 	{{ content }}
-
-	<div class="about-wrap">
-		<div class="expand-wrap">
-			<img src="user/themes/x-dci/images/components_icon.png" class="expand-icon" />
-			<div class='showHide'>
-			    <input type="checkbox" id="toggle-components" />
-			    <label for="toggle-components">
-			        <span class='expand'>
-			            <span class="changeArrow arrow-up">↑</span>
-			            <span class="changeArrow arrow-dn">↓</span>
-			            Components
-			        </span>
-			    </label>
-			    
-			    <div class="fieldsetContainer">
-			        <fieldset id="fdstLorem">
-			        	<div class="expand-icon-row">
-				            <div class="expand-icon-wrap"><img src="user/themes/x-dci/images/irods_icon.png" /></div>
-				            <div class="expand-icon-wrap"><img src="user/themes/x-dci/images/jupyter_notebook_icon.png" /></div>
-				        </div>
-				        <div class="expand-icon-row">
-				            <div class="expand-icon-wrap"><img src="user/themes/x-dci/images/xdci_share_icon.png" /></div>
-				            <div class="expand-icon-wrap"><img src="user/themes/x-dci/images/scidas_icon.png" /></div>
-				        </div>
-				        <div class="view-all"><a href="{{ uri.rootUrl() }}/components" class="xdci-button">View All</a></div>
-			        </fieldset>
-			    </div>
-			</div>
-		</div>
-
-		<div class="expand-wrap">
-			<img src="user/themes/x-dci/images/infrastructure_icon.png" class="expand-icon" />
-			<div class='showHide'>
-			    <input type="checkbox" id="toggle-infrastructure" />
-			    <label for="toggle-infrastructure">
-			        <span class='expand'>
-			            <span class="changeArrow arrow-up">↑</span>
-			            <span class="changeArrow arrow-dn">↓</span>
-			            Infrastructure
-			        </span>
-			    </label>
-			    
-			    <div class="fieldsetContainer">
-			        <fieldset id="fdstLorem">
-			            Lorem ipsum...
-			            <div class="view-all"><a href="{{ uri.rootUrl() }}/infrastructure" class="xdci-button">View All</a></div>
-			        </fieldset>
-			    </div>
-			</div>
-		</div>
-
-		<div class="expand-wrap">
-			<img src="user/themes/x-dci/images/projects_icon.png" class="expand-icon" />
-			<div class='showHide'>
-			    <input type="checkbox" id="toggle-projects" />
-			    <label for="toggle-projects">
-			        <span class='expand'>
-			            <span class="changeArrow arrow-up">↑</span>
-			            <span class="changeArrow arrow-dn">↓</span>
-			            Projects
-			        </span>
-			    </label>
-			    
-			    <div class="fieldsetContainer">
-			        <fieldset id="fdstLorem">
-			            Lorem ipsum...
-			            <div class="view-all"><a href="{{ uri.rootUrl() }}/projects" class="xdci-button">View All</a></div>
-			        </fieldset>
-			    </div>
-			</div>
-		</div>
+	<div class="title-wrap">
+		<h1>{cross-disciplinary} Data CyberInfrastructure</h1>
+		<h3>Accelerating Discovery For {any community}</h3>
 	</div>
 	<div class="red-section">
 		<div class="red-section-text">
-			<div class="what-is-xdci">
-				<h2>What is xDCI?</h2>
-				<p>xDCI leverages opensource software packages such as the integrated Rule Oriented Data System and the CyVerse Discovery Environment to address significant challenges in data storage, sharing, analysis and visualization.</p>
-			</div>
-			<div class="who-uses-us">
-				<h2>Who Uses xDCI?</h2>
-				<p>xDCI supports research across a variety of fields including genomics, environmental sciences, biomedical and health science, and social science.</p>
+			<div class="what-wrap">
+				<div class="what-description">
+					RENCI offers {x}DCI as a complete <b>customizable</b> solution for scientific communities that simplifies the process of creating and using data science cyberinfrastructure.
+				</div>
+				<div class="what-description">
+					{x}DCI communities are <b>sustainable</b> through a dynamic, mature, proven process that allows your infrastructure to migrate over time.
+				</div>
+				<div class="what-description">
+					Leveraging {x}DCI as common infrastructure affords <b>cross-disciplinary</b> collaboration.
+				</div>
 			</div>
 		</div>
 	</div>
-
-
 </div>
