@@ -96,7 +96,8 @@ body#top {
 /* Home Page */
 #body .title-wrap {
   text-align: center;
-  margin-bottom: 48px; }
+  margin-bottom: 48px;
+  padding: 0; }
   #body .title-wrap h1 {
     font-size: 2.4em;
     font-weight: 300;
@@ -599,6 +600,8 @@ body#top {
   #top #body .about .about-wrap .expand-wrap {
     width: 32%; } }
 @media only screen and (max-width: 740px) {
+  #top #body .wrapper .about .title-wrap {
+    padding: 0 20px; }
   #top #body .wrapper .about .about-wrap .expand-wrap {
     width: 100%;
     margin-bottom: 64px; }
@@ -607,7 +610,8 @@ body#top {
     #top #body .wrapper .about .about-wrap .expand-wrap .showHide {
       margin-top: -66px; }
   #top #body .wrapper .about .red-section {
-    margin-top: 0; }
+    margin-top: 0;
+    min-height: 440px; }
     #top #body .wrapper .about .red-section .red-section-text .what-is-xdci {
       width: 100%;
       text-align: center;
@@ -623,7 +627,9 @@ body#top {
       #top #body .wrapper .about .red-section .red-section-text .who-uses-us p {
         padding-left: 0; }
   #top #body .wrapper .process {
-    margin-top: -82px; }
+    margin-top: -82px;
+    padding-bottom: 86px;
+    background-position: 0; }
     #top #body .wrapper .process .process-wrap {
       margin-bottom: 0; }
       #top #body .wrapper .process .process-wrap h2 {
@@ -646,6 +652,13 @@ body#top {
             padding: 0 5%; }
             #top #body .wrapper .process .process-wrap .step-row .step-text .step-description h4 {
               width: 100%; }
+  #top #body .wrapper .community-background {
+    margin-top: -132px; }
+    #top #body .wrapper .community-background .community-wrap .use-case-wrap {
+      width: 90%;
+      float: none;
+      margin: 0 auto;
+      margin-bottom: 28px; }
   #top #body .wrapper .project-summary {
     width: 100%; }
     #top #body .wrapper .project-summary img {
