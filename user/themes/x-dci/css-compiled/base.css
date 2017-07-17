@@ -703,12 +703,10 @@ body#top {
       margin: 0 auto;
       width: 100%;
       display: block; }
-  #top #body .wrapper .about .about-wrap {
-    margin-top: 54px; }
-    #top #body .wrapper .about .about-wrap .expand-wrap .expand-icon {
-      max-width: 87px; }
-    #top #body .wrapper .about .about-wrap .expand-wrap .showHide {
-      margin-top: -45px; }
+  #top #body .wrapper .about .red-section {
+    min-height: 472px; }
+    #top #body .wrapper .about .red-section .red-section-text {
+      margin-bottom: 10px; }
   #top .single-staff #body .staff-image {
     width: 100%; } }
 /* Mobile Menu */
