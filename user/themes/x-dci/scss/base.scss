@@ -481,6 +481,7 @@ body#top {
 	form {
 		max-width: 700px;
     	margin: 0 auto;
+    	padding: 0;
     	.form-field {
     		.form-label {
     			margin: 10px 0 5px 0;
@@ -1012,6 +1013,9 @@ body#top {
 							width: 100%;
 						}
 					}
+				}
+				form {
+					padding: 0 20px;
 				}
 			}
 		}
