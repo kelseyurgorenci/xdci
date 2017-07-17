@@ -373,6 +373,9 @@ body#top {
     color: #E6A164 !important;
     font-weight: 100 !important; }
 
+#body .form-wrap {
+  max-width: 700px; }
+
 /* Components Archive */
 #body .wrapper {
   padding: 0; }
