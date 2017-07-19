@@ -1,5 +1,5 @@
 enabled: true
-from: 'xdci@renci.org'
+from: 'xdci-support@renci.org'
 from_name:
 to:
 to_name:
