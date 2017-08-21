@@ -359,6 +359,11 @@ body#top {
     min-height: 214px; }
   #body form .form-field textarea:focus {
     outline: 0; }
+  #body form .form-field .form-data {
+    overflow: auto; }
+    #body form .form-field .form-data span.checkboxes {
+      max-width: 40px;
+      float: left; }
   #body form .buttons .button {
     font-size: 1.1em !important;
     font-weight: 100;

@@ -522,6 +522,13 @@ body#top {
 	    	textarea:focus {
 	    		outline: 0;
 	    	}
+	    	.form-data {
+	    		overflow: auto;
+	    		span.checkboxes {
+				    max-width: 40px;
+				    float: left;
+				}
+	    	}
 	    }
 	    .buttons {
 	    	.button {
