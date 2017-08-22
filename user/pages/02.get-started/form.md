@@ -6,7 +6,7 @@ form:
     fields:
         -
             name: name
-            label: 'Name of Person Filling This Out'
+            label: 'Researcher Name'
             placeholder: Name
             autofocus: 'on'
             autocomplete: 'on'
@@ -15,21 +15,21 @@ form:
                 required: true
         -
             name: email
-            label: 'Email of Person Filling This Out'
+            label: 'Researcher Email'
             placeholder: Email
             type: email
             validate:
                 required: true
         -
             name: department
-            label: 'Department and/or Institution'
+            label: 'Researcher Department and/or Institution'
             placeholder: Department
             type: text
             validate:
                 required: false
         -
             name: field
-            label: 'Field of Research'
+            label: 'Researcher Field of Research'
             placeholder: 'Field of Research'
             type: text
             validate:
@@ -37,7 +37,7 @@ form:
         -
             my_field: null
             type: checkboxes
-            label: 'Are you filling this form out on behalf of another researcher?'
+            label: 'Are you completing this form on behalf of another researcher?'
             default:
                 option1: false
                 option2: false
@@ -48,34 +48,34 @@ form:
                 required: true
         -
             name: behalfname
-            label: 'Researcher Name (if filling this form out on behalf of another researcher)'
+            label: 'Name of Person Completing This Form (if different than researcher)'
             placeholder: Name
             autofocus: 'on'
             autocomplete: 'on'
             type: text
             validate:
-                required: true
+                required: false
         -
             name: behalfemail
-            label: 'Researcher Email (if filling this form out on behalf of another researcher)'
+            label: 'Email of Person Completing This Form (if different than researcher)'
             placeholder: Email
             type: email
             validate:
-                required: true
+                required: false
         -
             name: behalfdepartment
-            label: 'Researcher Department and/or Institution (if filling this form out on behalf of another researcher)'
+            label: 'Department and/or Institution of Person Completing This Form (if different than researcher)'
             placeholder: Department
             type: text
             validate:
                 required: false
         -
             name: behalfresearch
-            label: 'Researcher Field of Research (if filling this form out on behalf of another researcher)'
+            label: 'Field of Research of Person Completing This Form (if different than researcher)'
             placeholder: 'Field of Research'
             type: text
             validate:
-                required: true
+                required: false
         -
             name: currentresearch
             label: '1. What are your current research projects?'
