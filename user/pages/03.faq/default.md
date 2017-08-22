@@ -24,12 +24,12 @@ xDCI is a complete and customizable solution for scientific communities looking 
 **Who can use {x}DCI?**
 
 RENCI stakeholders; RENCI works with faculty researchers, business leaders, and government officials across North Carolina and the U.S. on projects that use data science to make scientific discoveries, solve societal problems, and help businesses gain a competitive edge. 
-<br/>
+
 <br/>
 **How can I get started with {x}DCI?**
 
 Through the xDCI Service Process
-1. RENCI staff and/or stakeholders (e.g. UNC VCR, chancellor, etc) go out and about promoting RENCI and UNC’s expertise in data science cyberinfrastructure (this captures the stakeholder on the offering side).  When the stakeholder on the receiving side indicates they like what they are hearing and desires to partake of the expertise and technology offering, the stakeholder is pointed to the RENCI xDCI website combined with connecting them to a xDCI concierge below to get started.
+1. To initiate the {x}DCI process, please submit the form under the "Get Started" button. Shortly after submitting the form, one of our experts will be in touch with a date and time of an initial consultation. The form will also advise our team of experts on the tailoring of the initial consultation for your project. 
 2. The xDCI information Technology (IT) Concierge staff will work with your team to move your project from concept to a productive and efficient combination of select xDCI technologies, in effect creating a unique xDCI-based architecture for your project. 
 3. The xDCI Sustainable Software Concierge staff will serve as technical project managers and work with your team to deploy your project on the appropriate cloud infrastructure. Once deployed, they will work with your team to instill sustainable software best practices to ensure efficient and persistent continuation of your project over time. 
 4. The xDCI Data Science Concierge staff will offer data science expertise in how to extract maximum scientific and community benefit from your deployment of xDCI. These staff are experts in data science analytics and visualization using the latest technologies and methods that will accelerate your community to new levels of achievement. 
